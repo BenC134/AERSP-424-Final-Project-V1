@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.23)
+project(AERSP424_Project)
+set(CMAKE_CXX_STANDARD 20)
+include_directories(${CMAKE_SOURCE_DIR})
+add_executable(${AERSP424_Project} project_main.cpp game_function.cpp function.h)
